@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+
+           	<ImageButton
+           	    android:layout_marginLeft="7dp"
+            	android:layout_weight="4"
+            	android:id="@+id/id_iv_left"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:onClick="showLeftMenu"
+            	android:background="@drawable/showright_selector" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miss You"
+                android:textColor="@color/grey"
+                android:gravity="center"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginRight="7dp"
+            	android:layout_weight="4"
+            	android:id="@+id/id_iv_right"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:onClick="showRightMenu"
+            	android:background="@drawable/mm_submenu_pressed"/>
+</LinearLayout>

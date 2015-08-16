@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Soo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="miss">Hi, I Miss You !</string>
+	<string name="wel_msg">...你若安好，便是晴天...</string>
+</resources>

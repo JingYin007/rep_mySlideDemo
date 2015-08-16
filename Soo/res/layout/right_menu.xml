@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/top1"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="个人信息"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/top2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="二维码名片"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_blog"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/top3"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="腾讯微博"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_friend"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/top4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="添加朋友"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="帮助与反馈"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="关于微信"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    android:gravity="center"
+                    android:text="退出登录"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
